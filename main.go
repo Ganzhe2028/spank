@@ -66,7 +66,7 @@ const (
 	decayHalfLife = 30.0
 
 	// slapCooldown prevents rapid-fire audio playback.
-	slapCooldown = 750 * time.Millisecond
+	slapCooldown = 550 * time.Millisecond
 
 	// sensorPollInterval is how often we check for new accelerometer data.
 	sensorPollInterval = 10 * time.Millisecond
